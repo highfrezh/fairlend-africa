@@ -1,0 +1,5 @@
+,Accuracy,Precision,Recall,F1,ROC-AUC
+Logistic Regression,0.6355,0.8634,0.6148,0.7182,0.7128
+Baseline XGBoost,0.752,0.771,0.9557,0.8534,0.6982
+Tuned XGBoost,0.625,0.862,0.5996,0.7073,0.7137
+Tuned + Optimal Thresh,0.7555,0.7555,1.0,0.8607,0.7137

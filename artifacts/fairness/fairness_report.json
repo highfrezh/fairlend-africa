@@ -1,0 +1,134 @@
+{
+  "overall": {
+    "n_test": 2000,
+    "positive_rate": 0.7555,
+    "selection_rate": 1.0,
+    "overall_tpr": 1.0,
+    "overall_auc": 0.7137
+  },
+  "by_region": {
+    "n": {
+      "Central Africa": 313,
+      "East Africa": 590,
+      "Southern Africa": 394,
+      "West Africa": 703
+    },
+    "base_rate": {
+      "Central Africa": 0.7604,
+      "East Africa": 0.7373,
+      "Southern Africa": 0.769,
+      "West Africa": 0.761
+    },
+    "selection_rate": {
+      "Central Africa": 1.0,
+      "East Africa": 1.0,
+      "Southern Africa": 1.0,
+      "West Africa": 1.0
+    },
+    "TPR_recall": {
+      "Central Africa": 1.0,
+      "East Africa": 1.0,
+      "Southern Africa": 1.0,
+      "West Africa": 1.0
+    },
+    "FPR": {
+      "Central Africa": 1.0,
+      "East Africa": 1.0,
+      "Southern Africa": 1.0,
+      "West Africa": 1.0
+    },
+    "precision": {
+      "Central Africa": 0.7604,
+      "East Africa": 0.7373,
+      "Southern Africa": 0.769,
+      "West Africa": 0.761
+    },
+    "f1": {
+      "Central Africa": 0.8639,
+      "East Africa": 0.8488,
+      "Southern Africa": 0.8694,
+      "West Africa": 0.8643
+    },
+    "roc_auc": {
+      "Central Africa": 0.6994,
+      "East Africa": 0.7054,
+      "Southern Africa": 0.7235,
+      "West Africa": 0.727
+    },
+    "selection_rate_disparity": {
+      "Central Africa": 1.0,
+      "East Africa": 1.0,
+      "Southern Africa": 1.0,
+      "West Africa": 1.0
+    },
+    "TPR_recall_disparity": {
+      "Central Africa": 1.0,
+      "East Africa": 1.0,
+      "Southern Africa": 1.0,
+      "West Africa": 1.0
+    },
+    "precision_disparity": {
+      "Central Africa": 0.9888,
+      "East Africa": 0.9588,
+      "Southern Africa": 1.0,
+      "West Africa": 0.9896
+    }
+  },
+  "by_gender": {
+    "n": {
+      "Female": 872,
+      "Male": 1046,
+      "Prefer not to say": 82
+    },
+    "base_rate": {
+      "Female": 0.7649,
+      "Male": 0.7476,
+      "Prefer not to say": 0.7561
+    },
+    "selection_rate": {
+      "Female": 1.0,
+      "Male": 1.0,
+      "Prefer not to say": 1.0
+    },
+    "TPR_recall": {
+      "Female": 1.0,
+      "Male": 1.0,
+      "Prefer not to say": 1.0
+    },
+    "FPR": {
+      "Female": 1.0,
+      "Male": 1.0,
+      "Prefer not to say": 1.0
+    },
+    "precision": {
+      "Female": 0.7649,
+      "Male": 0.7476,
+      "Prefer not to say": 0.7561
+    },
+    "f1": {
+      "Female": 0.8668,
+      "Male": 0.8556,
+      "Prefer not to say": 0.8611
+    },
+    "roc_auc": {
+      "Female": 0.6923,
+      "Male": 0.728,
+      "Prefer not to say": 0.7444
+    },
+    "selection_rate_disparity": {
+      "Female": 1.0,
+      "Male": 1.0,
+      "Prefer not to say": 1.0
+    },
+    "TPR_recall_disparity": {
+      "Female": 1.0,
+      "Male": 1.0,
+      "Prefer not to say": 1.0
+    },
+    "precision_disparity": {
+      "Female": 1.0,
+      "Male": 0.9774,
+      "Prefer not to say": 0.9885
+    }
+  }
+}

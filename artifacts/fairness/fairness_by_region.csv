@@ -1,0 +1,5 @@
+group,n,base_rate,selection_rate,TPR_recall,FPR,precision,f1,roc_auc,selection_rate_disparity,TPR_recall_disparity,precision_disparity
+Central Africa,313,0.7604,1.0,1.0,1.0,0.7604,0.8639,0.6994,1.0,1.0,0.9888
+East Africa,590,0.7373,1.0,1.0,1.0,0.7373,0.8488,0.7054,1.0,1.0,0.9588
+Southern Africa,394,0.769,1.0,1.0,1.0,0.769,0.8694,0.7235,1.0,1.0,1.0
+West Africa,703,0.761,1.0,1.0,1.0,0.761,0.8643,0.727,1.0,1.0,0.9896

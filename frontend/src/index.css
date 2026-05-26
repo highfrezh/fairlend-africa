@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #10b981; /* A nice emerald green */
+  --color-brand-red: #ef4444;   /* A clear red */
+  --color-brand-blue: #3b82f6;  /* A clean blue */
+}
+
+
+body {
+  background-color: #f8f7f4;
+  color: #2c2c2a;
+  font-family: system-ui, -apple-system, sans-serif;
+}
