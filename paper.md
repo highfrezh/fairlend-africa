@@ -86,6 +86,7 @@ practitioners at MFIs experimenting with ML-based underwriting.
 
 # Software Architecture
 
+
 FairLend-Africa is structured as four integrated components:
 
 **Data pipeline** (`src/data/`): A synthetic dataset generator
@@ -120,6 +121,10 @@ analysis at 30%, 50%, 70%, and 100% approval rates. The
 framework acknowledges Chouldechova's impossibility theorem
 [@chouldechova2017] and applies the 80% rule as an international
 reference benchmark.
+
+![Global feature importance measured by mean absolute SHAP value
+across all 2,000 test borrowers. Wallet balance trend dominates
+all other features.\label{fig:shap}](global_importance.png)
 
 # Example Usage
 
@@ -205,5 +210,11 @@ populations.
 The author thanks the open-source communities behind scikit-learn,
 XGBoost, SHAP, FastAPI, and React, whose tools make reproducible
 ML research accessible to independent researchers.
+
+# AI usage disclosure
+
+AI tools were used to assist with code development and manuscript
+drafting during this project. All technical content, experimental
+results, and conclusions were independently verified by the author.
 
 # References
